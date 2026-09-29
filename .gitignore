@@ -1,0 +1,19 @@
+# Frontend
+whatsApp/node_modules/
+whatsApp/.next/
+whatsApp/out/
+whatsApp/certificates/
+
+# Backend
+whatsApp-backend/vendor/
+whatsApp-backend/node_modules/
+whatsApp-backend/.next/
+whatsApp-backend/.env
+whatsApp-backend/database/*.sqlite
+whatsApp-backend/storage/app/public/*
+!whatsApp-backend/storage/app/public/.gitkeep
+whatsApp-backend/storage/logs/*
+whatsApp-backend/storage/framework/cache/*
+whatsApp-backend/storage/framework/sessions/*
+whatsApp-backend/storage/framework/views/*
+whatsApp-backend/bootstrap/cache/*.php
