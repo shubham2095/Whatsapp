@@ -11,6 +11,10 @@
   RewriteCond %{HTTPS} !=on
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+  # Route API requests to Laravel backend (must come before SPA fallback)
+  RewriteCond %{REQUEST_URI} ^/api/
+  RewriteRule ^ backend/public/index.php [L]
+
   # Never rewrite build assets to the SPA shell: a missing hashed chunk must
   # return a real 404 (not index.html served as JS, which corrupts the app).
   RewriteRule ^_next/ - [L]
