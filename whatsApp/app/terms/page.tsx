@@ -4,7 +4,7 @@ export default function TermsAndConditions() {
       <h1 style={{ fontSize: 28, fontWeight: 600, marginBottom: 8 }}>Terms and Conditions</h1>
       <p style={{ color: "#666", marginBottom: 32 }}>Last updated: September 12, 2026</p>
 
-      <p>Welcome to Pizi, a WhatsApp automation platform operated by Heltog Technologies Pvt Ltd (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;). By accessing or using the Service at frontend.heltog.com and its associated APIs, you agree to be bound by these Terms.</p>
+      <p>Welcome to Pizi, a WhatsApp automation platform operated by Heltog Technologies Pvt Ltd (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;). By accessing or using the Service at app.heltog.com and its associated APIs, you agree to be bound by these Terms.</p>
 
       <h2 style={{ fontSize: 20, fontWeight: 600, marginTop: 32 }}>1. Definitions</h2>
       <ul>

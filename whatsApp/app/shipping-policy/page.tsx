@@ -11,7 +11,7 @@ export default function ShippingPolicy() {
       <p>Upon successful payment, your subscription is activated immediately. You will have instant access to the features included in your selected plan. No waiting period or delivery time applies.</p>
 
       <h2 style={{ fontSize: 20, fontWeight: 600, marginTop: 32 }}>Access</h2>
-      <p>The Service is accessible via any modern web browser at <strong>frontend.heltog.com</strong>. No software installation is required. The Service is available 24/7, subject to scheduled maintenance and the terms outlined in our Terms and Conditions.</p>
+      <p>The Service is accessible via any modern web browser at <strong>app.heltog.com</strong>. No software installation is required. The Service is available 24/7, subject to scheduled maintenance and the terms outlined in our Terms and Conditions.</p>
 
       <h2 style={{ fontSize: 20, fontWeight: 600, marginTop: 32 }}>Contact</h2>
       <p>For any questions: <strong>heltogtechnologies@gmail.com</strong></p>

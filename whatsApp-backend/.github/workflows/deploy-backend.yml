@@ -10,7 +10,7 @@ name: Deploy backend to Hostinger
 # Required repo secrets:
 #   FTP_SERVER, FTP_USERNAME, FTP_PASSWORD  — Hostinger FTP account
 #   BACKEND_FTP_DIR                         — server path of the Laravel app root
-#   BACKEND_URL                             — e.g. https://main.heltog.com
+#   BACKEND_URL                             — e.g. https://app.heltog.com
 #   DEPLOY_KEY                              — same value as DEPLOY_KEY in server .env
 on:
   push:
